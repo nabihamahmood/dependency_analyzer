@@ -1,0 +1,20 @@
+strict digraph {
+"config.h";
+"main.c";
+"utils\math.h";
+"utils\common.h";
+"core\engine.h";
+"core\engine.c";
+"utils\logger.h";
+"core\model.h";
+"utils\math.c";
+"main.c" -> "config.h";
+"main.c" -> "utils\math.h";
+"main.c" -> "utils\common.h";
+"main.c" -> "core\engine.h";
+"utils\math.h" -> "utils\logger.h";
+"core\engine.h" -> "core\model.h";
+"core\engine.c" -> "core\engine.h";
+"core\engine.c" -> "utils\logger.h";
+"utils\math.c" -> "utils\math.h";
+}
