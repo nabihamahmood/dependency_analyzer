@@ -1,0 +1,19 @@
+strict digraph {
+"main.c";
+"include\config.h";
+"include\system.h";
+"include\shared\macros.h";
+"modules\utils\math.h";
+"include\shared\types.h";
+"modules\engine.c";
+"modules\engine.h";
+"modules\utils\math.c";
+"main.c" -> "include\config.h";
+"main.c" -> "include\system.h";
+"main.c" -> "include\shared\macros.h";
+"main.c" -> "modules\utils\math.h";
+"include\system.h" -> "include\shared\types.h";
+"modules\engine.c" -> "modules\engine.h";
+"modules\engine.c" -> "modules\utils\math.h";
+"modules\utils\math.c" -> "modules\utils\math.h";
+}
