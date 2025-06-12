@@ -62,23 +62,6 @@ python run.py
 * `output2/`: Graph for `input2/`
 
 ---
-
-## 👥 Team Roles
-
-| Member  | Responsibility                |
-| ------- | ----------------------------- |
-| Alice   | Lexer & Parser implementation |
-| Bob     | Semantic analysis module      |
-| Charlie | Graph generator & integration |
-
----
-
-## 📷 Example Output
-
-> (Optional) Include screenshots of generated graphs here
-
----
-
 ##  Features
 
 * Handles nested folder includes
